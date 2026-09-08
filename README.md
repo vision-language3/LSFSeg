@@ -139,8 +139,4 @@ denoiser_best_epoch.pt
 
 Only the checkpoint with the lowest validation segmentation loss is retained during Phase II training. Testing writes per-class and aggregate metrics to the configured Excel file and optionally saves categorical predictions and latent-process visualizations.
 
-## Citation
 
-If this repository is useful in your research, please cite the accompanying paper:
-
-> *Make Generative Segmentation Stable: Label-Prior Guided One-Step Flow Matching for Retinal Layer Segmentation in OCT Images.*
